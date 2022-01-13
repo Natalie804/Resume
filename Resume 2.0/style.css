@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=ubuntu');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.25;
+    background-color: whitesmoke ;
+    font-family: 'ubuntu', sans-serif;
+}
+
+.container {
+    width: 52%;
+    margin: auto;
+    /* border-style: solid;
+    border-width: 1px;
+    border-color: rgb(174, 174, 174); */
+    border: 1px solid rgb(174, 174, 174);
+    background-color: white;
+}
+
+.doc {
+    width: 95%;
+    margin: auto;
+}
+
+.content {
+    width: 80%;
+
+}
+
+.head {
+    display: flex;
+    background: linear-gradient(to right, #013a74,#003264,#002d59);
+    margin-top: 3%;
+}
+
+.showcase {
+    display: flex;
+    margin-bottom: 3%;
+}
+
+.sidebar {
+    background: #ececec;
+}
+
+.sections {
+    background: #d3d3d3;
+}
+
+.dates {
+    display: flex;
+    justify-content: right;
+}
+
+span {
+    display: inline-block;
+    width: 100%;
+}
+
+.image {
+    border: 2px solid black;
+    margin: 10%;
+}
+
+.intro {
+    margin-left: 50px;
+    color: #ffffff;
+}
+
+.name {
+    font-size: 26px;
+    padding: 5px;
+}
+
+.titles {
+    margin-top: 0;
+    margin-bottom: 0;
+}
