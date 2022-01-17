@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
 
 * {
     box-sizing: border-box;
@@ -7,7 +7,7 @@
 body {
     line-height: 1.25;
     background-color: whitesmoke ;
-    font-family: 'ubuntu', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .container {
@@ -26,8 +26,7 @@ body {
 }
 
 .content {
-    width: 80%;
-
+    width: 80%;    
 }
 
 .head {
@@ -39,14 +38,17 @@ body {
 .showcase {
     display: flex;
     margin-bottom: 3%;
+    font-size: 14px;
 }
 
 .sidebar {
     background: #ececec;
+    font-size: 14px;
 }
 
 .sections {
     background: #d3d3d3;
+    padding: 0px 0px 0px 5px;
 }
 
 .dates {
@@ -77,4 +79,8 @@ span {
 .titles {
     margin-top: 0;
     margin-bottom: 0;
+}
+
+li {
+    font-size: 13.3px;
 }
